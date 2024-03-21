@@ -25,20 +25,6 @@ const bscMainnet: NetworkUserConfig = {
   zksync: false,
 };
 
-const opBNBTestnet: NetworkUserConfig = {
-  url: "https://opbnb-testnet.nodereal.io/v1/468e2a19d2c34837b6a79a9b667c28b3",
-  chainId: 5611,
-  accounts: [process.env.KEY_TESTNET!],
-  zksync: false,
-};
-
-const opBNBMainnet: NetworkUserConfig = {
-  url: "https://opbnb-mainnet.nodereal.io/v1/468e2a19d2c34837b6a79a9b667c28b3",
-  chainId: 204,
-  accounts: [process.env.KEY_MAINNET!],
-  zksync: false,
-};
-
 const arbGoerli: NetworkUserConfig = {
   url: "https://goerli-rollup.arbitrum.io/rpc",
   chainId: 421613,
